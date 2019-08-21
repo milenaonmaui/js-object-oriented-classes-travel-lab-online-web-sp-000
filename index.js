@@ -32,6 +32,7 @@ class Route {
   }
   
   estimatedTime(peak){
+    const divisor = peak? 2:3
     return this.blocksTravelled() / peak? 2:3
   }
 }
