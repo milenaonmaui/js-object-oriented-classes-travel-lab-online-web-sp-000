@@ -30,4 +30,8 @@ class Route {
     const horizontalBlocks = eastWest.findIndex(location => location === this.endingLocation.horizontal) - eastWest.findIndex(location => location === this.beginningLocation.horizontal);
     return verticalBlocks + horizontalBlocks;
   }
+  
+  estimatedtime(){
+    
+  }
 }
