@@ -9,6 +9,9 @@ class Driver{
   }
 }
 
-calss Route {
-  constructor(beginningLocation, )
+class Route {
+  constructor(beginningLocation, endingLocation){
+    this.beginningLocation=beginningLocation;
+    this.endingLocation = endingLocation;
+  }
 }
